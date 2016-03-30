@@ -13,6 +13,7 @@ angular.module('app.controllers', ['ionic','ngCordova'])
             allowEdit : false,
             encodingType: Camera.EncodingType.JPEG,
             popoverOptions: CameraPopoverOptions,
+            saveToPhotoAlbum: true
         };
 
         // 3 appelle le module ngCordova que l'on a injecté au controller
