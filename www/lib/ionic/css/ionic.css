@@ -23,6 +23,9 @@
   used under CC BY http://creativecommons.org/licenses/by/4.0/
   Modified icons to fit ionicon’s grid from original.
 */
+.image {
+  -webkit-transform: rotate(90deg); /*permet la rotation de l'image*/
+}
 @font-face {
   font-family: "Ionicons";
   src: url("../fonts/ionicons.eot?v=2.0.1");

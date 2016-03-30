@@ -27,7 +27,7 @@
                 <button ng-click="takeVideo()" class="button button-positive  button-block icon ion-videocamera">   Laissez un Message</button>
                 <button ng-click="addImage()" class="button button-calm  button-block icon ion-android-camera">   Smile!</button>
             <ion-scroll>
-                  <img ng-repeat ="image in images" ng-src="{{urlForImage(image)}}" height="200px"/>
+                  <img class="image" ng-repeat ="image in images" ng-src="{{urlForImage(image)}}" height="200px"/>
             </ion-scroll>
           </ion-content>
     </ion-view>
